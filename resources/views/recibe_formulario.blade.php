@@ -16,7 +16,7 @@
                 <strong>ID:</strong> {{ $row->id }} <br>
                 <strong>Nombre:</strong> {{ $row->nombre }} <br>
                 <strong>Email:</strong> {{ $row->correo }} <br>
-                <strong>Fecha de nacimiento:</strong> {{ $row->fecha_nacimiento }}
+                <strong>Fecha de nacimiento:</strong> {{ $row->fechanac}}
             </p>
             <br>
         @endforeach
