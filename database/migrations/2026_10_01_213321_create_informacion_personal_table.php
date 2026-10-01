@@ -14,6 +14,9 @@ return new class extends Migration
         Schema::create('informacion_personal', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            $table->string('nombre', 255);
+            $table->string('correo', 255)->unique();
+            $table->date('fechanac');
         });
     }
 
